@@ -28,7 +28,7 @@
                            <div class="form-group">
                               <div class="input-group">
                                 <div class="input-group-addon"><i class="fa fa-credit-card"></i></div>
-                                <input class="form-control all-elements-tooltip" type="text" placeholder="Ingrese su número de NIT" required name="clien-nit" data-toggle="tooltip" data-placement="top" title="Ingrese su número de NIT. Solamente números y guiones(-)" maxlength="30" pattern="[0-9-]{14,30}">
+                                <input class="form-control all-elements-tooltip" type="text" placeholder="Ingrese su número de tarjeta" required name="clien-nit" data-toggle="tooltip" data-placement="top" title="Ingrese su número de NIT. Solamente números y guiones(-)" maxlength="30" pattern="[0-9-]{14,30}">
                               </div>
                             </div>
                             <br>
@@ -56,7 +56,7 @@
                             <div class="form-group">
                               <div class="input-group">
                                 <div class="input-group-addon"><i class="fa fa-lock"></i></div>
-                                <input class="form-control all-elements-tooltip" type="password" placeholder="Introdusca una contraseña" required name="clien-pass" data-toggle="tooltip" data-placement="top" title="Defina una contraseña para iniciar sesión">
+                                <input class="form-control all-elements-tooltip" type="password" placeholder="Introduzca una contraseña" required name="clien-pass" data-toggle="tooltip" data-placement="top" title="Defina una contraseña para iniciar sesión">
                               </div>
                             </div>
                             <br>

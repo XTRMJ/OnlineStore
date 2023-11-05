@@ -50,7 +50,7 @@
                                       <div class="form-group">
                                         <div class="input-group">
                                           <div class="input-group-addon"><i class="fa fa-lock"></i></div>
-                                          <input class="form-control all-elements-tooltip" type="password" placeholder="Introdusca su contraseña" required name="clien-pass" data-toggle="tooltip" data-placement="top" title="Introdusca su contraseña">
+                                          <input class="form-control all-elements-tooltip" type="password" placeholder="Introduzca su contraseña" required name="clien-pass" data-toggle="tooltip" data-placement="top" title="Introdusca su contraseña">
                                         </div>
                                       </div>
                                       <input type="hidden"  name="clien-number" value="notlog">

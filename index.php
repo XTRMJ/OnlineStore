@@ -3,13 +3,54 @@
 <head>
     <title>Inicio</title>
     <?php include './inc/link.php'; ?>
+<style>
+  .image-container {
+    background-color: #fff; /* Fondo blanco */
+    padding: 20px; /* Espacio entre el fondo y las imágenes */
+  }
+.image-collage {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .image-collage img {
+    flex: 1;
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.2s;
+  }
+
+  .image-collage img:hover {
+    transform: scale(1.05);
+  }
+
+  .image-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    text-align: center;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.2s;
+  }
+
+  .image-collage img:hover + .image-link {
+    opacity: 1;
+  }
+</style>
 </head>
 <body id="container-page-index">
     <?php include './inc/navbar.php'; ?>
     <div class="jumbotron" id="jumbotron-index">
       <h1><span class="tittles-pages-logo">Latinox</span> <small style="color: #fff;">San Luis Potosí, S.L.P.</small></h1>
       <p>
-          Bienvenido a nuestra tienda en linea, aquí encontrara una gran variedad de artículos con base a las mejores aleaciones de aluminio.
+          Bienvenido a nuestra tienda en linea, aquí encontrara una gran variedad de artículos con base a las mejores aleaciones de aceros y metales.
       </p>
     </div>
     <section id="new-prod-index">
@@ -62,7 +103,7 @@
                    </article>
                 </div>
                 <div class="col-xs-12 col-sm-6">
-                    <img src="assets/img/Smart-TV-RegInfo.png" alt="Smart-TV" class="img-responsive">
+                    <img src="assets\img-products\products.jpeg" alt="Smart-TV" class="img-responsive">
                 </div>
             </div>
         </div>
@@ -79,8 +120,28 @@
                 <div class="page-header">
                   <h1>Nuestras <small style="color: #333;">Marcas</small></h1>
                 </div>
-                <br><br>
-                <img src="assets/img/GAcerero.jpg" alt="Grupo Acerero" class="img-responsive">
+                <br>
+                <div class="image-container">
+                    <div class="image-collage">
+                        <div>
+                            <img src="assets/img/GAcerero.jpg" alt="Grupo Acerero" class="img-responsive">
+                            <a href="enlace1.html" class="image-link">Enlace 1</a>
+                        </div>
+                        <div>
+                            <img src="assets/img/simec.png" alt="Grupo Simec" class="img-responsive">
+                            <a href="enlace2.html" class="image-link">Enlace 2</a>
+                        </div>
+                        <div>
+                            <img src="assets/img/sigosa.jpeg" alt="Sigosa" class="img-responsive">
+                            <a href="enlace3.html" class="image-link">Enlace 3</a>
+                        </div>
+                        <div>
+                            <img src="assets/img/deacero.jpg" alt="Deacero" class="img-responsive">
+                            <a href="enlace4.html" class="image-link">Enlace 4</a>
+                        </div>
+                    </div>
+                </div>
+                </br>
             </div>
         </div>
     </section>
