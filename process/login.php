@@ -10,7 +10,7 @@
         $verUser=ejecutarSQL::consultar("select * from cliente where Nombre='$nombre' and Clave='$clave'");
         $verAdmin=ejecutarSQL::consultar("select * from administrador where Nombre='$nombre' and Clave='$clave'");
         if($radio=="option2"){
-            $AdminC=mysql_num_rows($verAdmin);
+            $AdminC=mysqli_num_rows($verAdmin);
             if($AdminC>0){
                 $_SESSION['nombreAdmin']=$nombre;
                 $_SESSION['claveAdmin']=$clave;
@@ -20,7 +20,7 @@
             }
         }
         if($radio=="option1"){
-            $UserC=mysql_num_rows($verUser);
+            $UserC=mysqli_num_rows($verUser);
             if($UserC>0){
                 $_SESSION['nombreUser']=$nombre;
                 $_SESSION['claveUser']=$clave;

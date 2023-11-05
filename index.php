@@ -7,9 +7,9 @@
 <body id="container-page-index">
     <?php include './inc/navbar.php'; ?>
     <div class="jumbotron" id="jumbotron-index">
-      <h1><span class="tittles-pages-logo">Latinox</span> <small style="color: #fff;">El Salvador</small></h1>
+      <h1><span class="tittles-pages-logo">Latinox</span> <small style="color: #fff;">San Luis Potosí, S.L.P.</small></h1>
       <p>
-          Bienvenido a nuestra tienda en linea, aquí encontrara una gran variedad de artículos para el hogar.
+          Bienvenido a nuestra tienda en linea, aquí encontrara una gran variedad de artículos con base a las mejores aleaciones de aluminio.
       </p>
     </div>
     <section id="new-prod-index">
@@ -80,7 +80,7 @@
                   <h1>Nuestras <small style="color: #333;">Marcas</small></h1>
                 </div>
                 <br><br>
-                <img src="assets/img/logos-marcas.png" alt="logos-marcas" class="img-responsive">
+                <img src="assets/img/GAcerero.jpg" alt="Grupo Acerero" class="img-responsive">
             </div>
         </div>
     </section>

@@ -10,7 +10,7 @@
         <div class="container">
             <div class="row">
                 <div class="page-header">
-                  <h1>Registro de usuarios <small class="tittles-pages-logo">Cat Electronics</small></h1>
+                  <h1>Registro de usuarios <small class="tittles-pages-logo">Latinox</small></h1>
                 </div>
                 <div class="col-xs-12 col-sm-6 text-center">
                    <br><br><br>
@@ -18,8 +18,6 @@
                     <p class="lead">
                         Al registrarse recibira notificaciones de nuestros productos y ofertas más recientes en nuestra tienda.
                     </p>
-                    <br>
-                    <img src="assets/img/img-registration.png" alt="electrodomesticos" class="img-responsive">
                 </div>
                 <div class="col-xs-12 col-sm-6">
                    <br><br>
