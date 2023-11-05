@@ -21,8 +21,7 @@
               <?php
                   include 'library/configServer.php';
                   include 'library/consulSQL.php';
-                  $consulta= ejecutarSQL::consultar("select * from producto where Stock > 0 limit 6"); //
-                  echo BD;
+                  $consulta= ejecutarSQL::consultar("select * from producto where Stock > 0 limit 6");
                   $totalproductos = mysqli_num_rows($consulta);
                   if($totalproductos>0){
                       while($fila=mysqli_fetch_array($consulta)){
