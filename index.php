@@ -7,7 +7,7 @@
 <body id="container-page-index">
     <?php include './inc/navbar.php'; ?>
     <div class="jumbotron" id="jumbotron-index">
-      <h1><span class="tittles-pages-logo">Cat Electronics</span> <small style="color: #fff;">El Salvador</small></h1>
+      <h1><span class="tittles-pages-logo">Latinox</span> <small style="color: #fff;">El Salvador</small></h1>
       <p>
           Bienvenido a nuestra tienda en linea, aquí encontrara una gran variedad de artículos para el hogar.
       </p>
@@ -21,10 +21,11 @@
               <?php
                   include 'library/configServer.php';
                   include 'library/consulSQL.php';
-                  $consulta= ejecutarSQL::consultar("select * from producto where Stock > 0 limit 6");
-                  $totalproductos = mysql_num_rows($consulta);
+                  $consulta= ejecutarSQL::consultar("select * from producto where Stock > 0 limit 6"); //
+                  echo BD;
+                  $totalproductos = mysqli_num_rows($consulta);
                   if($totalproductos>0){
-                      while($fila=mysql_fetch_array($consulta)){
+                      while($fila=mysqli_fetch_array($consulta)){
                          echo '
                         <div class="col-xs-12 col-sm-6 col-md-4">
                              <div class="thumbnail">
@@ -57,7 +58,7 @@
                    <article style="margin-top:20%;">
                         <p><i class="fa fa-users fa-4x"></i></p>
                         <h3>Registrate</h3>
-                        <p>Registrese y hagase cliente de <span class="tittles-pages-logo">Cat Electronics</span> para recibir las mejores ofertas y descuentos especiales de nuestros productos.</p>
+                        <p>Registrese y hagase cliente de <span class="tittles-pages-logo">Latinox</span> para recibir las mejores ofertas y descuentos especiales de nuestros productos.</p>
                         <p><a href="registration.php" class="btn btn-info btn-block">Registrarse</a></p>   
                    </article>
                 </div>
