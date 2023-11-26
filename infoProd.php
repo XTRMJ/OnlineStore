@@ -21,7 +21,7 @@ include './library/consulSQL.php';
         <div class="container">
             <div class="row">
                 <div class="page-header">
-                    <h1>Tienda <small class="tittles-pages-logo">Cat Electronics</small></h1>
+                    <h1>Tienda <small class="tittles-pages-logo">Latinox</small></h1>
                 </div>
                 <?php 
                     $CodigoProducto=$_GET['CodigoProd'];

@@ -22,7 +22,7 @@ if(!$nitCliente=="" && !$nameCliente=="" && !$apeCliente=="" && !$dirCliente==""
            echo '<img src="assets/img/error.png" class="center-all-contens"><br>Ha ocurrido un error.<br>Por favor intente nuevamente'; 
         }
     }else{
-        echo '<img src="assets/img/error.png" class="center-all-contens"><br>El NIT que ha ingresado ya esta registrado.<br>Por favor ingrese otro número de NIT';
+        echo '<img src="assets/img/error.png" class="center-all-contens"><br>El usuario que intentra registrar ya existe<br>Por favor ingrese otro número de NIT';
     }
 }else {
     echo '<img src="assets/img/error.png" class="center-all-contens"><br>Error los campos no deben de estar vacíos';

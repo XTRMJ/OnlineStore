@@ -14,7 +14,7 @@
             <br><br><br>
             <div class="row">
                 <div class="col-xs-12 col-sm-6">
-                    <img class="img-responsive center-all-contens" src="assets/img/CatElectronics-logo.png" style="opacity: .4">
+                    <img class="img-responsive center-all-contens" src="assets/img-products/latinoxfondo.png" style="opacity: 1">
                 </div>
                 <div class="col-xs-12 col-sm-6">
                     <div id="form-compra">
